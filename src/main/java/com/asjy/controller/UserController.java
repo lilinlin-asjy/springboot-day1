@@ -66,6 +66,7 @@ public class UserController {
             for (int i = 0; i < errorList.size(); i++) {
                 mesList.add(errorList.get(i).getDefaultMessage());
             }
+            System.out.println("sdf");
             map.put("status", false);
             map.put("error", mesList);
         } else {
